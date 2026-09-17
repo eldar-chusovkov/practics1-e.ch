@@ -1,0 +1,9 @@
+cm=float(input())
+inc=cm/2.54
+feet=inc/12
+yar=feet/3
+mil=yar/1760
+print(yar,'ярдов')
+print(mil,'миль')
+print(feet,'футов')
+print(inc,'дюймов')

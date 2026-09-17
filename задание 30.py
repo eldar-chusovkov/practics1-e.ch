@@ -1,0 +1,14 @@
+ATT=float(input())
+COMP=float(input())
+YDS=float(input())
+TD=float(input())
+INT=float(input())
+a=((COMP/ATT)-0.3)*5
+b=((YDS/ATT)-3)*0.25
+c=(TD/ATT)*20
+d=2.375-(INT/ATT)*25
+a=min(2.375,a)
+b=min(2.375,b)
+c=min(2.375,c)
+d=min(2.375,d)
+print(((a+b+c+d)/6)*100)
